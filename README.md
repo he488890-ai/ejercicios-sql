@@ -38,9 +38,12 @@ Consultas
    
 3. Listado de vehículos que trabajan en el Actopan, incluye los datos de placa, pasajero, modelo y anio.
    #### Solución
+ ```
   SELECT placa, pasajero, modelo, anio
   FROM Automovil
   WHERE municipio = 'Actopan';
+
+```
    #### Salida
 
 | placa   | pasajero | modelo | anio |
