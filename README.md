@@ -30,7 +30,7 @@ Consultas
    #### Salida
 
 | marca  | municipio  | placa   |
- -------- ------------ ---------
+|--------|------------|---------|
 | Honda  | Tulancingo | HJC124E |
 | Toyota | Actopan    | HJC133E |
 | Honda  | Tulancingo | HJC223E |
