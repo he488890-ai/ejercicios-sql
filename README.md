@@ -70,13 +70,24 @@ Consultas
 | Toyota | Corola |       97921 |
  -------- -------- -------------
    
-5. Listado de vehículos que el kilometraje sea mayor a 5000 y menor a 65000, incluye los datos de modelo, anio y kilometraje.
+4. Listado de vehículos que el kilometraje sea mayor a 5000 y menor a 65000, incluye los datos de modelo, anio y kilometraje.
    #### Solución
-   TODO script SQL
+    ```
+    SELECT modelo, anio, kilometraje
+    from Automovil where kilometraje>5000 and kilometraje <65000;
+    ```
    #### Salida
-   TODO listado de atributos y tuplas
+   | modelo | anio | kilometraje |
+   |--------|------|-------------|
+   | Versa  | 2024 |       43456 |
+   | Ciudad | 2025 |        9832 |
+   | Versa  | 2023 |       63456 |
+   | Ciudad | 2024 |       19832 |
+   | Corola | 2024 |       47921 |
+   | Ciudad | 2023 |       49832 |
+    -------- ------ ------------- 
 
-6. Listado de vehículos que corresponde verificación en septiembre-octubre, incluye los datos de marca, municipio y placa.
+5. Listado de vehículos que corresponde verificación en septiembre-octubre, incluye los datos de marca, municipio y placa.
    #### Solución
    TODO script SQL
    #### Salida
