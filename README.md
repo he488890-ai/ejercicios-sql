@@ -101,4 +101,15 @@ Consultas
    ```
 
    #### Salida
-   TODO listado de atributos y tuplas
+| marca  | municipio  | placa   |
+ -------- ------------ --------- 
+| Honda  | Tulancingo | HJC124E |
+ -------- ------------ --------- 
+
+ | marca  | municipio  | placa   |
+ -------- ------------ --------- 
+| Nissan | Pachuca    | HJC123E |
+| Honda  | Tulancingo | HJC133E |
+| Toyota | Actopan    | HJC133E |
+| Toyota | Actopan    | HJC223E |
+ -------- ------------ --------- 
