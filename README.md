@@ -23,10 +23,9 @@ Consultas
    #### Solución
    TODO script SQL
 ```sql
-   SELECT *
-     FROM mi_tablas
-    WHERE condicion_1
-      AND condicion_2
+  SELECT marca, municipio, placa
+   FROM Automovil
+    WHERE pasajero > 4;
 ```
    #### Salida
    TODO listado de atributos y tuplas
