@@ -89,6 +89,16 @@ Consultas
 
 5. Listado de vehículos que corresponde verificación en septiembre-octubre, incluye los datos de marca, municipio y placa.
    #### Solución
-   TODO script SQL
+    ```
+   SELECT marca, municipio, placa
+   FROM Automovil
+   WHERE placa LIKE '%3' ;
+   ```
+   ```
+   SELECT marca, municipio, placa
+   FROM Automovil
+   WHERE placa LIKE '%4%';
+   ```
+
    #### Salida
    TODO listado de atributos y tuplas
