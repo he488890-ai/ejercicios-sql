@@ -102,12 +102,12 @@ Consultas
 
    #### Salida
 | marca  | municipio  | placa   |
- -------- ------------ --------- 
+|--------|------------|---------|
 | Honda  | Tulancingo | HJC124E |
  -------- ------------ --------- 
 
- | marca  | municipio  | placa   |
- -------- ------------ --------- 
+| marca  | municipio  | placa   |
+|--------|------------|---------|
 | Nissan | Pachuca    | HJC123E |
 | Honda  | Tulancingo | HJC133E |
 | Toyota | Actopan    | HJC133E |
