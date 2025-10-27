@@ -40,8 +40,8 @@ Consultas
    #### Solución
  ```
   SELECT placa, pasajero, modelo, anio
-  FROM Automovil
-  WHERE municipio = 'Actopan';
+   FROM Automovil
+   WHERE municipio = 'Actopan';
 
 ```
    #### Salida
