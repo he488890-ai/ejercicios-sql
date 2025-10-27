@@ -38,9 +38,17 @@ Consultas
    
 3. Listado de vehículos que trabajan en el Actopan, incluye los datos de placa, pasajero, modelo y anio.
    #### Solución
-   TODO script SQL
+  SELECT placa, pasajero, modelo, anio
+  FROM Automovil
+  WHERE municipio = 'Actopan';
    #### Salida
-   TODO listado de atributos y tuplas
+
+| placa   | pasajero | modelo | anio |
+|---------|----------|--------|------|
+| HJC125E |        3 | Corola | 2023 |
+| HJC133E |        5 | Corola | 2024 |
+| HJC223E |        3 | Corola | 2021 |
+ --------- ---------- -------- ------
    
 4. Listado de vehículos cuyo año de inicio de operación sea menor o igual a 2023, incluye los datos de marca, modelo y kilometraje.
    #### Solución
