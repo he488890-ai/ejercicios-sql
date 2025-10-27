@@ -36,7 +36,7 @@ Consultas
 | Honda  | Tulancingo | HJC223E |
  -------- ------------ ---------
    
-3. Listado de vehículos que trabajan en el Actopan, incluye los datos de placa, pasajero, modelo y anio.
+2. Listado de vehículos que trabajan en el Actopan, incluye los datos de placa, pasajero, modelo y anio.
    #### Solución
  ```
   SELECT placa, pasajero, modelo, anio
@@ -53,11 +53,22 @@ Consultas
 | HJC223E |        3 | Corola | 2021 |
  --------- ---------- -------- ------
    
-4. Listado de vehículos cuyo año de inicio de operación sea menor o igual a 2023, incluye los datos de marca, modelo y kilometraje.
+3. Listado de vehículos cuyo año de inicio de operación sea menor o igual a 2023, incluye los datos de marca, modelo y kilometraje.
    #### Solución
-   TODO script SQL
+   ```
+    SELECT marca, modelo, kilometraje
+    FROM Automovil WHERE anio <= 2023;
+   ```
    #### Salida
-   TODO listado de atributos y tuplas
+
+| marca  | modelo | kilometraje |
+|--------|--------|-------------|
+| Toyota | Corola |       67921 |
+| Nissan | Versa  |       63456 |
+| Nissan | Versa  |       83456 |
+| Honda  | Ciudad |       49832 |
+| Toyota | Corola |       97921 |
+ -------- -------- -------------
    
 5. Listado de vehículos que el kilometraje sea mayor a 5000 y menor a 65000, incluye los datos de modelo, anio y kilometraje.
    #### Solución
