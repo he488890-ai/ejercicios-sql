@@ -28,7 +28,13 @@ Consultas
     WHERE pasajero > 4;
 ```
    #### Salida
-   TODO listado de atributos y tuplas
+
+| marca  | municipio  | placa   |
+ -------- ------------ ---------
+| Honda  | Tulancingo | HJC124E |
+| Toyota | Actopan    | HJC133E |
+| Honda  | Tulancingo | HJC223E |
+ -------- ------------ ---------
    
 3. Listado de vehículos que trabajan en el Actopan, incluye los datos de placa, pasajero, modelo y anio.
    #### Solución
