@@ -90,26 +90,18 @@ Consultas
 5. Listado de vehículos que corresponde verificación en septiembre-octubre, incluye los datos de marca, municipio y placa.
    #### Solución
     ```
-   SELECT marca, municipio, placa
-   FROM Automovil
-   WHERE placa LIKE '%3' ;
-   ```
-   ```
-   SELECT marca, municipio, placa
-   FROM Automovil
-   WHERE placa LIKE '%4%';
-   ```
+    select marca, municipio, placa from automovil where (select substr(placa, 6)) < "5";
+    ```
+   
 
    #### Salida
 | marca  | municipio  | placa   |
 |--------|------------|---------|
-| Honda  | Tulancingo | HJC124E |
- -------- ------------ --------- 
-
-| marca  | municipio  | placa   |
-|--------|------------|---------|
 | Nissan | Pachuca    | HJC123E |
+| Honda  | Tulancingo | HJC124E |
 | Honda  | Tulancingo | HJC133E |
 | Toyota | Actopan    | HJC133E |
+| Nissan | Pachuca    | HJC223E |
+| Honda  | Tulancingo | HJC223E |
 | Toyota | Actopan    | HJC223E |
- -------- ------------ --------- 
+ -------- ------------ ---------
